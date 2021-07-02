@@ -24,8 +24,9 @@ const App= () => (
   <NavigationContainer>
     
     <Tab.Navigator>
-      <Tab.Screen name="LibraryTab" component={LibraryStackScreen} />
-      <Tab.Screen name="AddbookTab" component={BookDetail}/>
+      <Tab.Screen name="Mis libros" component={LibraryStackScreen} />
+      <Tab.Screen name="Añadir libros" component={BookDetail}/>
+      <Tab.Screen name="Mi perfil" component={BookDetail}/>
     </Tab.Navigator>
   </NavigationContainer>
 );
